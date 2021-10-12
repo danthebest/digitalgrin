@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A community for tech makers and devs",
   "main": "index.js",
+  "scripts": {
+    "build-css": "npx postcss tailwind.css -o style.css"
+  },
   "repository": "https://github.com/danthebest/digitalgrin.git",
   "author": "Daniel Tossou <tossdaniel@gmail.com>",
   "license": "MIT",
