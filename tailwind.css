@@ -14,6 +14,26 @@
     @apply border-solid border-b-4 border-primary cursor-pointer;
 }
 
+input {
+    background: #FFFFFF;
+    box-shadow: 2px 1px 6px 1px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    color: #101C3A;
+}
+
+input:focus {
+    outline: #101C3A;
+    filter: contrast(95%);
+}
+
+input[type=submit] {
+    background: #101C3A;
+    box-shadow: 2px 1px 6px 1px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
 @import "tailwindcss/base";
 
 @import "tailwindcss/components";

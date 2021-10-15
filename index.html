@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stuff -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Digital Grin - Accueil</title>
+  </head>
+  <body>
+    <div class="container mx-8 pt-4 md:mx-16 md:pt-6">
+      <div>
+        <span class="flex justify-start">
+          <img
+            class=""
+            src="img/logo.svg"
+            alt="digital grin community logo"
+            srcset=""
+          />
+        </span>
+      </div>
+      <div class="grid md:grid-cols-2 md:gap-4 md:mt-6">
+        <div>
+          <!-- LEFT SECTION -->
+          <h1
+            class="
+              font-body font-bold
+              text-xl
+              md:text-3xl
+              text-primary
+              leading-snug
+              mt-12
+            "
+          >
+            Passion
+            <svg
+              class="inline"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="6" cy="6" r="6" fill="#2997EF" />
+            </svg>
+            Partage
+            <svg
+              class="inline"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="6" cy="6" r="6" fill="#2997EF" />
+            </svg>
+            Succès
+          </h1>
+          <p class="font-body font-light text-base md:text-xl mt-6 md:mt-4">
+            Reçois chaque vendredi des alertes <br class="md:hidden"> sur les lives,<br class="hidden md:block">
+            challenges et évènements <br class="md:hidden"> de la communauté. <br class="md:hidden"> <br class="hidden md:block">
+            Reste à jour de l’actualité tech et des formations utiles.
+          </p>
+          <!-- FORM SECTION -->
+          <form action="https://formspree.io/f/mknkagng" method="post" class="mt-8 md:mt-6">
+            <input class="mb-4 p-6 w-4/5 h-14 md:h-16" type="text" name="username" id="" required placeholder="Prénom"/>
+            <input class="mb-4 p-6 w-4/5 h-14 md:h-16" type="email" name="email" id="" required placeholder="E-mail"/>
+            <input class="w-4/5 h-14 text-lg md:h-16 md:text-2xl" type="submit" value="Souscrire à la newsletter" />
+          </form>
+        </div>
+
+        <div class="hidden md:block">
+          <!-- RIGHT SECTION -->
+          <img class="mt-10" src="img/tech-maker.png" alt="">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
